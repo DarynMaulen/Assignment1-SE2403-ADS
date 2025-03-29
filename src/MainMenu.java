@@ -29,6 +29,7 @@ public class MainMenu {
 
             switch (choice) {
                 case 1: Problem1.run(scanner); break;
+                case 2: Problem1.run(scanner); break;
                 default:
                     System.out.println("Invalid choice! Please enter a number between 0 and 10");
             }
